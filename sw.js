@@ -1,6 +1,6 @@
 // sw.js - Service Worker para Karma’s Salón Habana
 
-const CACHE_NAME = 'karmassalonhabana-v1';
+const CACHE_NAME = 'karmassalonhabana-v47';
 const urlsToCache = [
   '/karmassalonhabana/',
   '/karmassalonhabana/index.html',
@@ -17,7 +17,14 @@ const urlsToCache = [
   '/karmassalonhabana/icons/icon-152x152.png',
   '/karmassalonhabana/icons/icon-192x192.png',
   '/karmassalonhabana/icons/icon-384x384.png',
-  '/karmassalonhabana/icons/icon-512x512.png'
+  '/karmassalonhabana/icons/icon-512x512.png',
+  '/karmassalonhabana/vendor/react.production.min.js',
+  '/karmassalonhabana/vendor/react-dom.production.min.js',
+  '/karmassalonhabana/vendor/babel.min.js',
+  '/karmassalonhabana/vendor/bcrypt.min.js',
+  '/karmassalonhabana/vendor/tailwind-browser.js',
+  '/karmassalonhabana/vendor/lucide/lucide.css',
+  '/karmassalonhabana/vendor/lucide/lucide.woff2'
 ];
 
 // ============================================
