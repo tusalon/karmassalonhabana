@@ -1,6 +1,6 @@
 // sw.js - Service Worker para Karma’s Salón Habana
 
-const CACHE_NAME = 'karmassalonhabana-v49';
+const CACHE_NAME = 'karmassalonhabana-v56';
 const urlsToCache = [
   '/karmassalonhabana/',
   '/karmassalonhabana/index.html',
